@@ -46,5 +46,18 @@ public abstract class Vehicle implements Driveable{
 //    You could do something like the vehicle has a method called isElectric and that delegates to a engine object
 //    So that checks the type of engine object to know if it's electric
 
+    public abstract void move();
+    public abstract void stop();
 
+
+    @Override
+    public String toString() {
+        return "Vehicle{" +
+                "make='" + make + '\'' +
+                ", model='" + model + '\'' +
+                ", colour='" + colour + '\'' +
+                ", topSpeed=" + topSpeed +
+                ", price=" + price +
+                '}';
+    }
 }
