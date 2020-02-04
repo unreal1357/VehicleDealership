@@ -1,0 +1,10 @@
+How can I show polymorpism? overriding methods
+
+
+could use composition to get extra details for a car for example... create an engine class and can say it is::
+
+part of a car
+part of a motorbike etc..
+
+can do this for other components too -- look in udemy
+why and where would i use different constructors?? - look in udemy
