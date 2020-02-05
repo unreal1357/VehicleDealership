@@ -1,5 +1,5 @@
 
-//only HAVE to implement methods if set to abstract
+//only HAVE to implement methods if set to abstract - gives a choice of what to implement and what not to
 public abstract class Vehicle {
 
     private String make;
