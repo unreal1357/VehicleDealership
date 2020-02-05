@@ -1,6 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
+        /*
+        I think this some what functional already... will be cool to add some extra stuff to it though like some interfaces to play with
+        to make it a little more interesting.
+         */
 
         Ford ford = new Ford("focus","red",50,500);
         ford.vehicleDescription();

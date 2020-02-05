@@ -7,7 +7,8 @@ public class Transaction {
         System.out.println("Running credit check....");
         System.out.println("Customer successfully passed credit check");
     }
-
+//    creating instance of Customer here so I can call Customer.getCashOnHand, wouldn't work otherwise.
+//    Same with Vehicle so I can get the price
     void handleCustomer(Customer customer, boolean finance, Vehicle vehicle){
 
 //        saying if finance is true, run the following including running the credit check method
