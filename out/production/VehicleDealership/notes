@@ -31,3 +31,6 @@ Data abstraction:
 -hiding methods???
 -???
 
+
+//    could do something like the vehicle has a method called isElectric and that delegates to a engine object
+//    So that checks the type of engine object to know if it's electric

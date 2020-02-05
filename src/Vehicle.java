@@ -36,9 +36,6 @@ public abstract class Vehicle {
         return price;
     }
 
-//    could do something like the vehicle has a method called isElectric and that delegates to a engine object
-//    So that checks the type of engine object to know if it's electric
-
 /*
 Not sure what i could do with these yet
  */
@@ -48,6 +45,12 @@ Not sure what i could do with these yet
     public void stop(){
         System.out.println("Default: Car is stopping");
     };
+
+    void vehicleDescription(){
+        System.out.println("Information for "  + this.getMake() +" " + this.getModel() +": " +
+                "\nTop Speed: " + this.getTopSpeed() + "mph" +
+                "\nPrice: £" + this.getPrice()+"\n");
+    }
 
     @Override
     public String toString() {

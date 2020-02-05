@@ -17,8 +17,5 @@ public class Tesla extends Car implements ElectricEngine {
         System.out.println(this.getModel() + " has an electric Engine");
     }
 
-    @Override
-    public void vehicleDescription() {
-        super.vehicleDescription();
-    }
+
 }
