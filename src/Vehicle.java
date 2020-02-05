@@ -2,6 +2,7 @@
 //only HAVE to implement methods if set to abstract - gives a choice of what to implement and what not to
 public abstract class Vehicle {
 
+//    could add some more fields here to make
     private String make;
     private String model;
     private String colour;
