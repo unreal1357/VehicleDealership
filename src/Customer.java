@@ -22,7 +22,7 @@ public class Customer {
         return cashOnHand;
     }
 
-    public void purchaseCar(Vehicle vehicle, Transactions transactions, boolean finance){
+    public void purchaseCar(Vehicle vehicle, Transaction transactions, boolean finance){
         transactions.handleCustomer(this, finance,vehicle);
         System.out.println();
     }

@@ -8,14 +8,11 @@ public abstract class Car extends Vehicle {
 
     //    can make these methods have a bit more something about them --> just placeholder right now really, can maybe use them to get more
 //    information about how the vehicle types moves.
-    @Override
-    public abstract void move();
-
-    @Override
-    public abstract void stop();
 
     public void vehicleDescription(){
-        System.out.println("Information for "  + this.getMake() +" " + this.getModel() +": ");
+        System.out.println("Information for "  + this.getMake() +" " + this.getModel() +": " +
+                "\nTop Speed: " + this.getTopSpeed() + "mph" +
+                "\nPrice: £" + this.getPrice()+"\n");
 
     }
 }

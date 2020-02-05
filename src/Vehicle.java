@@ -1,13 +1,7 @@
-/*
-only reason to make an abstract class is when implementing some methods and not all...
-how does that work because its telling me to implement all the methods???
- */
 
+//only HAVE to implement methods if set to abstract
 public abstract class Vehicle {
 
-//    include some fields and a constructor?
-//    What does every single vehicle have?
-//    this is going to be implemented into all child classes - type of vehicles
     private String make;
     private String model;
     private String colour;
@@ -46,13 +40,16 @@ public abstract class Vehicle {
 //    You could do something like the vehicle has a method called isElectric and that delegates to a engine object
 //    So that checks the type of engine object to know if it's electric
 
+
+/*
+Not sure what i could do with these yet
+ */
     public void move(){
         System.out.println("Default: Car is moving");
     };
     public void stop(){
         System.out.println("Default: Car is stopping");
     };
-
 
     @Override
     public String toString() {

@@ -1,7 +1,7 @@
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class Transactions {
+public class Transaction {
 
     public void runCreditCheck(Customer customer, double loanAmount){
         System.out.println("Running credit check....");
@@ -15,7 +15,7 @@ public class Transactions {
             double loanAmount = vehicle.getPrice() - customer.getCashOnHand(); //setting loanAmount to use in credit check method
             runCreditCheck(customer, loanAmount);
             double result = (vehicle.getPrice() - customer.getCashOnHand()); //creating result variable to hold the data
-            System.out.println("Customer has used finance and got a loan for: £" + result); //outputting loan amount
+            System.out.println("Customer has used finance and got car " + vehicle + " using a loan of: £" + result); //outputting loan amount
 
 //            if customer has more money than the vehicle price, run process transaction method
         } else if (vehicle.getPrice() < customer.getCashOnHand())

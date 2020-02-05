@@ -18,7 +18,4 @@ public class Ford extends Car {
     public void stop() {
 
     }
-
-
-
 }
