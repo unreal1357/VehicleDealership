@@ -36,10 +36,8 @@ public abstract class Vehicle {
         return price;
     }
 
-
-//    You could do something like the vehicle has a method called isElectric and that delegates to a engine object
+//    could do something like the vehicle has a method called isElectric and that delegates to a engine object
 //    So that checks the type of engine object to know if it's electric
-
 
 /*
 Not sure what i could do with these yet
