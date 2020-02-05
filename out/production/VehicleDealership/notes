@@ -8,3 +8,26 @@ part of a motorbike etc..
 
 can do this for other components too -- look in udemy
 why and where would i use different constructors?? - look in udemy
+
+
+Point of making this program?
+
+To sell a car to customer, and to get information about a car
+
+show all principles of OOP - look at the features of each which are best to implement
+
+Encapsulation:
+-use private variables
+-what else???
+
+Polymorphism:
+-Overriding methods
+-What else?
+
+Inheritance:
+-Extending classes inheriting contructors and methods
+
+Data abstraction:
+-hiding methods???
+-???
+

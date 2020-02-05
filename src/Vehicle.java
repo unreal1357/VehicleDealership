@@ -3,7 +3,7 @@ only reason to make an abstract class is when implementing some methods and not 
 how does that work because its telling me to implement all the methods???
  */
 
-public abstract class Vehicle implements Driveable{
+public abstract class Vehicle {
 
 //    include some fields and a constructor?
 //    What does every single vehicle have?
@@ -46,18 +46,21 @@ public abstract class Vehicle implements Driveable{
 //    You could do something like the vehicle has a method called isElectric and that delegates to a engine object
 //    So that checks the type of engine object to know if it's electric
 
-    public abstract void move();
-    public abstract void stop();
+    public void move(){
+        System.out.println("Default: Car is moving");
+    };
+    public void stop(){
+        System.out.println("Default: Car is stopping");
+    };
 
 
     @Override
     public String toString() {
-        return "Vehicle{" +
-                "make='" + make + '\'' +
+        return "Vehicle: " +
+                "make= '" + make + '\'' +
                 ", model='" + model + '\'' +
-                ", colour='" + colour + '\'' +
-                ", topSpeed=" + topSpeed +
-                ", price=" + price +
-                '}';
+                ", colour= '" + colour + '\'' +
+                ", topSpeed= " + topSpeed +
+                ", price= " + price;
     }
 }
